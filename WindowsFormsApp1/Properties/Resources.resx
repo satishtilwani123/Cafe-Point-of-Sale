@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="peshawari mutton karahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peshawari mutton karahi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fiery zinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fiery zinger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white chicken karahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white chicken karahi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peshawari chicken kaarhi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peshawari chicken kaarhi.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beef seekh kabab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beef seekh kabab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1687803" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1687803.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="double-chicken-biryani_8656" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double-chicken-biryani_8656.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garlic-mayo-roll-50496617" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garlic-mayo-roll-50496617.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken malai boti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken malai boti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="behari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\behari.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="honey_mustard_wings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\honey_mustard_wings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetable chowmein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetable chowmein.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coca-cola-contour-bottle-500ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coca-cola-contour-bottle-500ml.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sulemani chicken karahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sulemani chicken karahi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cheese.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capture.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="special katakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\special katakat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken chatni roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken chatni roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="makhni handi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makhni handi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anda paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anda paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1092587" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1092587.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crispy-Chatni-roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crispy-Chatni-roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chapati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chapati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-alfredo-8-1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-alfredo-8-1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="masala fries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\masala fries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plain-paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plain-paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manchurian-Recipe-blog-1-of-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manchurian-Recipe-blog-1-of-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-shashlik-egg-fried-rice-recipe-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-shashlik-egg-fried-rice-recipe-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soft drink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soft drink.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken jalfezi with rice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken jalfezi with rice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheese aloo paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese aloo paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plain-Fries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plain-Fries.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mighty beef burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mighty beef burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afghani boti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afghani boti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken sandwich.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aloo-paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aloo-paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lemon grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lemon grass.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mieral water 1.5ltr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mieral water 1.5ltr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elegant-white-background-with-shiny-lines_1017-17580" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elegant-white-background-with-shiny-lines_1017-17580.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="special sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\special sandwich.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sulemani mutton karahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sulemani mutton karahi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetable fried" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetable fried.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken cheese roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken cheese roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mighty zinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mighty zinger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbq vip sizzlings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbq vip sizzlings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken reshami kabab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken reshami kabab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expresso coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expresso coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red tikka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red tikka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shashlik kabab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shashlik kabab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fiery chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fiery chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="club sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\club sandwich.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crispy cheese roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crispy cheese roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beef cheese roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beef cheese roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheese melt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese melt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="turkish kabab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\turkish kabab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spicy chicken Alfredo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spicy chicken Alfredo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken chowmein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken chowmein.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coleslaw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coleslaw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gola kabab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gola kabab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="special burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\special burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crispy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crispy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheese melt zinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese melt zinger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fish and chips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fish and chips.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="special bbq sizzlings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\special bbq sizzlings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-namkeen-boti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-namkeen-boti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chicken_Corn_Soup-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chicken_Corn_Soup-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheese-paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese-paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mexican wings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mexican wings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sweetsourchicken-10-720x540" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sweetsourchicken-10-720x540.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fresh lime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fresh lime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keema paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keema paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken cheese paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken cheese paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Egg-Fried-Rice-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Egg-Fried-Rice-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mayo garlic roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mayo garlic roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Special-Handi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Special-Handi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mutton-makhni-karhai-Recipe-by-Food-fusion-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mutton-makhni-karhai-Recipe-by-Food-fusion-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green tikka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green tikka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="special chinese" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\special chinese.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheese fries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese fries.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-malai-tikka-2220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-malai-tikka-2220.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cold drink 250ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cold drink 250ml.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mix katakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mix katakat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-paper-hexagon-white-background_51543-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-paper-hexagon-white-background_51543-7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tikka masala handi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tikka masala handi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mineral water small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mineral water small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baogees mutton karahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baogees mutton karahi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="000053690_chicken-chilli-dry-with-rice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\000053690_chicken-chilli-dry-with-rice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puri paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\puri paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crispy broast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crispy broast.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chatpata broast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chatpata broast.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbq sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bbq sandwich.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="malai-cheese-roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\malai-cheese-roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paneer reshmi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paneer reshmi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crispy nuggets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crispy nuggets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken cheese strips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken cheese strips.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="special roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\special roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="makhni chicken karahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makhni chicken karahi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crispy zinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crispy zinger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qeema cheese paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qeema cheese paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="000045357_chicken-biryani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\000045357_chicken-biryani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="000057734_crispy-qtr-broast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\000057734_crispy-qtr-broast.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstract-paper-hexagon-white-background_51543-71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-paper-hexagon-white-background_51543-71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brain Masala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brain Masala.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="penne arbiata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\penne arbiata.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="garlic nan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garlic nan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grilled-beef-burgers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grilled-beef-burgers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beef mayo garlic roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beef mayo garlic roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fried rice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fried rice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Homemade-Vegetable-Soup-Recipe-2-1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Homemade-Vegetable-Soup-Recipe-2-1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crispy garlic mayo roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crispy garlic mayo roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="malai-chatni-roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\malai-chatni-roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plain nan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plain nan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prawn-karahi_2760" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prawn-karahi_2760.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jala beef burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jala beef burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elaichi-tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elaichi-tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beef burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beef burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheese nan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheese nan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Special-baogees-Karahi_469" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Special-baogees-Karahi_469.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken paratha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken paratha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HotSourSoup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HotSourSoup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mighty chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mighty chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deep sauce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deep sauce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="000057392_beef-chatni-roll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\000057392_beef-chatni-roll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doodh pati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doodh pati.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-bihari-boti_8010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-bihari-boti_8010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beef-Bihari-Kabab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beef-Bihari-Kabab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mayo garlic broast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mayo garlic broast.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="singapore-fried-rice-recipe-500x447" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\singapore-fried-rice-recipe-500x447.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialMuttonWhiteKarahi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialMuttonWhiteKarahi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mayo-Garlic-Fries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mayo-Garlic-Fries.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elegant-white-background-with-shiny-lines_1017-175801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elegant-white-background-with-shiny-lines_1017-175801.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

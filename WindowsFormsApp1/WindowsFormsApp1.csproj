@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CD458D24-CA34-43F0-B906-C3EFF92D2BAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\M.Bytes\Desktop\baogees cafe software\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retail.Designer.cs">
+      <DependentUpon>Retail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Retail.resx">
+      <DependentUpon>Retail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1092587.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1687803.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-paper-hexagon-white-background_51543-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mexican wings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken cheese strips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chicken_Corn_Soup-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy nuggets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish and chips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Homemade-Vegetable-Soup-Recipe-2-1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honey_mustard_wings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HotSourSoup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masala fries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mayo-Garlic-Fries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plain-Fries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese fries.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese melt zinger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese melt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy zinger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiery chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiery zinger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mighty chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mighty zinger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grilled-beef-burgers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jala beef burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mighty beef burger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbq sandwich.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken sandwich.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\club sandwich.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special sandwich.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayo garlic broast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\000057734_crispy-qtr-broast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chatpata broast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy broast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\000053690_chicken-chilli-dry-with-rice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken chowmein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken jalfezi with rice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-shashlik-egg-fried-rice-recipe-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manchurian-Recipe-blog-1-of-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special chinese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sweetsourchicken-10-720x540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetable chowmein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\000045357_chicken-biryani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double-chicken-biryani_8656.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Egg-Fried-Rice-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fried rice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singapore-fried-rice-recipe-500x447.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetable fried.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-alfredo-8-1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\penne arbiata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spicy chicken Alfredo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afghani boti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbq vip sizzlings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef seekh kabab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\behari.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken malai boti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken reshami kabab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-bihari-boti_8010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-malai-tikka-2220.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-namkeen-boti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gola kabab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green tikka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red tikka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shashlik kabab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special bbq sizzlings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turkish kabab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beef-Bihari-Kabab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\000057392_beef-chatni-roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef cheese roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef mayo garlic roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken chatni roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken cheese roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy cheese roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crispy garlic mayo roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crispy-Chatni-roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garlic-mayo-roll-50496617.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\malai-chatni-roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\malai-cheese-roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayo garlic roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special roll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baogees mutton karahi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makhni chicken karahi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mutton-makhni-karhai-Recipe-by-Food-fusion-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peshawari chicken kaarhi.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peshawari mutton karahi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prawn-karahi_2760.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Special-baogees-Karahi_469.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpecialMuttonWhiteKarahi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sulemani chicken karahi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sulemani mutton karahi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white chicken karahi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brain Masala.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mix katakat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\special katakat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makhni handi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paneer reshmi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Special-Handi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tikka masala handi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese nan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garlic nan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plain nan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puri paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doodh pati.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elaichi-tea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expresso coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green tea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemon grass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aloo-paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anda paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese aloo paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheese-paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken cheese paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keema paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plain-paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qeema cheese paratha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coca-cola-contour-bottle-500ml.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cold drink 250ml.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fresh lime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soft drink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mieral water 1.5ltr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mineral water small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coleslaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deep sauce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-paper-hexagon-white-background_51543-71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elegant-white-background-with-shiny-lines_1017-17580.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elegant-white-background-with-shiny-lines_1017-175801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
